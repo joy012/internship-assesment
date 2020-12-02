@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#main{
+    height: 100vh;
+    position: relative;
+}
+#top-nav{
+   background-color:  #eeeeee96;
+   border-bottom: 2px solid lightgray;
+}
+#insta-text{
+    width: 15%;
+    display: block;
+    margin:auto;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.2rem 0.5rem;
+}
+.fas{
+    font-size: 1.6rem;
+    display: inline-block;
+    margin: 0.3rem;
+}
+#text-container{
+    width: 100vw;
+    color: crimson;
+    position: absolute;
+    top: 50%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+}
+#text-container p{
+    font-size: 2.5rem;
+    text-align: center;
+}
+#profile{
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 100%;
+}
+.material-icons{
+    font-size: 2.2rem!important;
+}
+
+#bottom-nav{
+    position: relative;
+    top: 85%;
+}
+@media screen and (max-width:575px){
+    #insta-text{
+        width: 35%;
+    }
+}
+
